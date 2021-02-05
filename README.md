@@ -11,13 +11,13 @@
 
 hook("javax.crypto.Cipher", "$");
 
-![](pic\02.png)
+![](pic/02.png)
 
 - 在命中方法后打印出该类或对象的所有域值、参数、调用栈和返回值
 
-![](pic\03.png)
-![](pic\04.png)
-![](pic\05.png)
+![](pic/03.png)
+![](pic/04.png)
+![](pic/05.png)
 
 - 极简的文本保存日志机制、易于搜索关键参数
 
@@ -27,7 +27,7 @@ hook("javax.crypto.Cipher", "$");
 
 1. 修改`r0tracer.js`文件最底部处的代码，开启某一个Hook模式。
 
-![](pic\01.png)
+![](pic/01.png)
 
 2. 推荐使用Frida14版本，并且将日志使用`-o`参数进行输出保存
 
