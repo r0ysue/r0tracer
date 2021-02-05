@@ -1,0 +1,3386 @@
+r0tracer begin ... !
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.copy$default [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component1 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component10 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component11 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component12 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component13 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component14 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component15 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component16 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component17 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component18 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component19 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component2 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component20 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component21 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component22 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component23 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component24 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component25 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component26 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component27 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component28 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component3 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component4 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component5 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component6 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component7 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component8 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.component9 [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.copy [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.equals [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getAdvantages [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getAge [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getAnnualIncome [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getAppointment [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getAvatar [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getAwait [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getBirthday [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getBubbleText [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getConstellation [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getCorrectVipLabel [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getCurrentState [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getDistance [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getDisturb [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getEducation [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getFigure [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getGetAlong [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getGpsCity [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getHiddenSocial [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getIconArea [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getInviteType [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getJob [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getNickname [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getOnlineTime [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getSendUnlock [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getSex [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.getVipLabel [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.hashCode [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.isGoddess [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.isReal [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.isVip [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.setAdvantages [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.setAppointment [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.setAwait [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.setCurrentState [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.setEducation [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.setFigure [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.setGetAlong [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.setSendUnlock [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.toString [1 overload(s)]
+Tracing Method : com.chanson.business.model.BasicUserInfoBean.$init [3 overload(s)]
+	Spec: => 
+public static com.chanson.business.model.BasicUserInfoBean com.chanson.business.model.BasicUserInfoBean.copy$default(com.chanson.business.model.BasicUserInfoBean,int,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,java.lang.String,java.lang.String,java.lang.String,boolean,int,java.lang.String,java.lang.String,int,boolean,java.lang.String,int,int,int,int,int,int,int,int,int,java.lang.Object)
+public final int com.chanson.business.model.BasicUserInfoBean.component1()
+public final boolean com.chanson.business.model.BasicUserInfoBean.component10()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.component11()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.component12()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.component13()
+public final boolean com.chanson.business.model.BasicUserInfoBean.component14()
+public final int com.chanson.business.model.BasicUserInfoBean.component15()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.component16()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.component17()
+public final int com.chanson.business.model.BasicUserInfoBean.component18()
+public final boolean com.chanson.business.model.BasicUserInfoBean.component19()
+public final int com.chanson.business.model.BasicUserInfoBean.component2()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.component20()
+public final int com.chanson.business.model.BasicUserInfoBean.component21()
+public final int com.chanson.business.model.BasicUserInfoBean.component22()
+public final int com.chanson.business.model.BasicUserInfoBean.component23()
+public final int com.chanson.business.model.BasicUserInfoBean.component24()
+public final int com.chanson.business.model.BasicUserInfoBean.component25()
+public final int com.chanson.business.model.BasicUserInfoBean.component26()
+public final int com.chanson.business.model.BasicUserInfoBean.component27()
+public final int com.chanson.business.model.BasicUserInfoBean.component28()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.component3()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.component4()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.component5()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.component6()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.component7()
+public final boolean com.chanson.business.model.BasicUserInfoBean.component8()
+public final boolean com.chanson.business.model.BasicUserInfoBean.component9()
+public final com.chanson.business.model.BasicUserInfoBean com.chanson.business.model.BasicUserInfoBean.copy(int,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,java.lang.String,java.lang.String,java.lang.String,boolean,int,java.lang.String,java.lang.String,int,boolean,java.lang.String,int,int,int,int,int,int,int,int)
+public boolean com.chanson.business.model.BasicUserInfoBean.equals(java.lang.Object)
+public final int com.chanson.business.model.BasicUserInfoBean.getAdvantages()
+public final int com.chanson.business.model.BasicUserInfoBean.getAge()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.getAnnualIncome()
+public final int com.chanson.business.model.BasicUserInfoBean.getAppointment()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.getAvatar()
+public final int com.chanson.business.model.BasicUserInfoBean.getAwait()
+public final int com.chanson.business.model.BasicUserInfoBean.getBirthday()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.getBubbleText()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.getConstellation()
+public final int com.chanson.business.model.BasicUserInfoBean.getCorrectVipLabel()
+public final int com.chanson.business.model.BasicUserInfoBean.getCurrentState()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.getDistance()
+public final int com.chanson.business.model.BasicUserInfoBean.getDisturb()
+public final int com.chanson.business.model.BasicUserInfoBean.getEducation()
+public final int com.chanson.business.model.BasicUserInfoBean.getFigure()
+public final int com.chanson.business.model.BasicUserInfoBean.getGetAlong()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.getGpsCity()
+public final boolean com.chanson.business.model.BasicUserInfoBean.getHiddenSocial()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.getIconArea()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.getInviteType()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.getJob()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.getNickname()
+public final java.lang.String com.chanson.business.model.BasicUserInfoBean.getOnlineTime()
+public final boolean com.chanson.business.model.BasicUserInfoBean.getSendUnlock()
+public final int com.chanson.business.model.BasicUserInfoBean.getSex()
+public final int com.chanson.business.model.BasicUserInfoBean.getVipLabel()
+public int com.chanson.business.model.BasicUserInfoBean.hashCode()
+public final boolean com.chanson.business.model.BasicUserInfoBean.isGoddess()
+public final boolean com.chanson.business.model.BasicUserInfoBean.isReal()
+public final boolean com.chanson.business.model.BasicUserInfoBean.isVip()
+public final void com.chanson.business.model.BasicUserInfoBean.setAdvantages(int)
+public final void com.chanson.business.model.BasicUserInfoBean.setAppointment(int)
+public final void com.chanson.business.model.BasicUserInfoBean.setAwait(int)
+public final void com.chanson.business.model.BasicUserInfoBean.setCurrentState(int)
+public final void com.chanson.business.model.BasicUserInfoBean.setEducation(int)
+public final void com.chanson.business.model.BasicUserInfoBean.setFigure(int)
+public final void com.chanson.business.model.BasicUserInfoBean.setGetAlong(int)
+public final void com.chanson.business.model.BasicUserInfoBean.setSendUnlock(boolean)
+public java.lang.String com.chanson.business.model.BasicUserInfoBean.toString()
+Tracing public com.chanson.business.model.BasicUserInfoBean()
+Tracing public com.chanson.business.model.BasicUserInfoBean(int,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,java.lang.String,java.lang.String,java.lang.String,boolean,int,java.lang.String,java.lang.String,int,boolean,java.lang.String,int,int,int,int,int,int,int,int)
+Tracing public com.chanson.business.model.BasicUserInfoBean(int,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,java.lang.String,java.lang.String,java.lang.String,boolean,int,java.lang.String,java.lang.String,int,boolean,java.lang.String,int,int,int,int,int,int,int,int,int,kotlin.jvm.b.g)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 0 => 0
+int 	age => 0 => 0
+java.lang.String 	annualIncome => null => null
+int 	appointment => 0 => 0
+java.lang.String 	avatar => null => null
+int 	await => 0 => 0
+int 	birthday => 0 => 0
+java.lang.String 	bubbleText => null => null
+java.lang.String 	constellation => null => null
+int 	currentState => 0 => 0
+java.lang.String 	distance => null => null
+int 	disturb => 0 => 0
+int 	education => 0 => 0
+int 	figure => 0 => 0
+int 	getAlong => 0 => 0
+java.lang.String 	gpsCity => null => null
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => null => null
+java.lang.String 	inviteType => null => null
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => null => null
+java.lang.String 	nickname => null => null
+java.lang.String 	onlineTime => null => null
+boolean 	sendUnlock => false => false
+int 	sex => 0 => 0
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.$init
+arg[0]: 0 => 0
+arg[1]: 0 => 0
+arg[2]:  => ""
+arg[3]:  => ""
+arg[4]:  => ""
+arg[5]:  => ""
+arg[6]:  => ""
+arg[7]: false => false
+arg[8]: false => false
+arg[9]: false => false
+arg[10]:  => ""
+arg[11]:  => ""
+arg[12]:  => ""
+arg[13]: false => false
+arg[14]: 0 => 0
+arg[15]:  => ""
+arg[16]:  => ""
+arg[17]: 0 => 0
+arg[18]: false => false
+arg[19]:  => ""
+arg[20]: 0 => 0
+arg[21]: 0 => 0
+arg[22]: 0 => 0
+arg[23]: 0 => 0
+arg[24]: 0 => 0
+arg[25]: 0 => 0
+arg[26]: 0 => 0
+arg[27]: 0 => 0
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.<init>(Native Method)
+	at com.chanson.business.model.BasicUserInfoBean.<init>(SourceFile:3)
+	at com.chanson.business.model.BasicUserInfoBean.<init>(Native Method)
+	at com.chanson.business.model.MyInfoBean.<init>(SourceFile:5)
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:334)
+	at c.k.a.a.j.a(SourceFile:1)
+	at c.k.a.a.a.p$a.a(SourceFile:3)
+	at c.k.a.a.a.o.a(SourceFile:5)
+	at c.k.a.a.a.p$a.a(SourceFile:9)
+	at c.k.a.I.a(SourceFile:7)
+	at c.k.a.I.a(SourceFile:8)
+	at com.chanson.common.a.d.a(SourceFile:5)
+	at com.chanson.common.a.d.convert(SourceFile:1)
+	at j.w.a(SourceFile:25)
+	at j.w.execute(SourceFile:18)
+	at j.a.a.c.b(SourceFile:5)
+	at d.a.k.a(SourceFile:77)
+	at j.a.a.a.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.x$b.run(SourceFile:1)
+	at d.a.q$a.run(SourceFile:2)
+	at d.a.e.g.k.run(SourceFile:2)
+	at d.a.e.g.k.call(SourceFile:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+	at java.lang.Thread.run(Thread.java:764)
+
+
+retval: undefined => undefined
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.$init
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 0 => 0
+int 	age => 0 => 0
+java.lang.String 	annualIncome => null => null
+int 	appointment => 0 => 0
+java.lang.String 	avatar => null => null
+int 	await => 0 => 0
+int 	birthday => 0 => 0
+java.lang.String 	bubbleText => null => null
+java.lang.String 	constellation => null => null
+int 	currentState => 0 => 0
+java.lang.String 	distance => null => null
+int 	disturb => 0 => 0
+int 	education => 0 => 0
+int 	figure => 0 => 0
+int 	getAlong => 0 => 0
+java.lang.String 	gpsCity => null => null
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => null => null
+java.lang.String 	inviteType => null => null
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => null => null
+java.lang.String 	nickname => null => null
+java.lang.String 	onlineTime => null => null
+boolean 	sendUnlock => false => false
+int 	sex => 0 => 0
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.$init
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.<init>(Native Method)
+	at com.chanson.business.model.MyInfoBean.<init>(SourceFile:5)
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:334)
+	at c.k.a.a.j.a(SourceFile:1)
+	at c.k.a.a.a.p$a.a(SourceFile:3)
+	at c.k.a.a.a.o.a(SourceFile:5)
+	at c.k.a.a.a.p$a.a(SourceFile:9)
+	at c.k.a.I.a(SourceFile:7)
+	at c.k.a.I.a(SourceFile:8)
+	at com.chanson.common.a.d.a(SourceFile:5)
+	at com.chanson.common.a.d.convert(SourceFile:1)
+	at j.w.a(SourceFile:25)
+	at j.w.execute(SourceFile:18)
+	at j.a.a.c.b(SourceFile:5)
+	at d.a.k.a(SourceFile:77)
+	at j.a.a.a.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.x$b.run(SourceFile:1)
+	at d.a.q$a.run(SourceFile:2)
+	at d.a.e.g.k.run(SourceFile:2)
+	at d.a.e.g.k.call(SourceFile:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+	at java.lang.Thread.run(Thread.java:764)
+
+
+retval: undefined => undefined
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.$init
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 0 => 0
+int 	age => 0 => 0
+java.lang.String 	annualIncome => null => null
+int 	appointment => 0 => 0
+java.lang.String 	avatar => null => null
+int 	await => 0 => 0
+int 	birthday => 0 => 0
+java.lang.String 	bubbleText => null => null
+java.lang.String 	constellation => null => null
+int 	currentState => 0 => 0
+java.lang.String 	distance => null => null
+int 	disturb => 0 => 0
+int 	education => 0 => 0
+int 	figure => 0 => 0
+int 	getAlong => 0 => 0
+java.lang.String 	gpsCity => null => null
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => null => null
+java.lang.String 	inviteType => null => null
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => null => null
+java.lang.String 	nickname => null => null
+java.lang.String 	onlineTime => null => null
+boolean 	sendUnlock => false => false
+int 	sex => 0 => 0
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.$init
+arg[0]: 0 => 0
+arg[1]: 0 => 0
+arg[2]:  => ""
+arg[3]:  => ""
+arg[4]:  => ""
+arg[5]:  => ""
+arg[6]:  => ""
+arg[7]: false => false
+arg[8]: false => false
+arg[9]: false => false
+arg[10]:  => ""
+arg[11]:  => ""
+arg[12]:  => ""
+arg[13]: false => false
+arg[14]: 0 => 0
+arg[15]:  => ""
+arg[16]:  => ""
+arg[17]: 0 => 0
+arg[18]: false => false
+arg[19]:  => ""
+arg[20]: 0 => 0
+arg[21]: 0 => 0
+arg[22]: 0 => 0
+arg[23]: 0 => 0
+arg[24]: 0 => 0
+arg[25]: 0 => 0
+arg[26]: 0 => 0
+arg[27]: 0 => 0
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.<init>(Native Method)
+	at com.chanson.business.model.BasicUserInfoBean.<init>(SourceFile:3)
+	at com.chanson.business.model.BasicUserInfoBean.<init>(Native Method)
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:334)
+	at c.k.a.a.j.a(SourceFile:1)
+	at c.k.a.a.a.p$a.a(SourceFile:3)
+	at c.k.a.a.a.o.a(SourceFile:5)
+	at c.k.a.a.a.p$a.a(SourceFile:9)
+	at c.k.a.a.a.o.a(SourceFile:5)
+	at c.k.a.a.a.p$a.a(SourceFile:9)
+	at c.k.a.I.a(SourceFile:7)
+	at c.k.a.I.a(SourceFile:8)
+	at com.chanson.common.a.d.a(SourceFile:5)
+	at com.chanson.common.a.d.convert(SourceFile:1)
+	at j.w.a(SourceFile:25)
+	at j.w.execute(SourceFile:18)
+	at j.a.a.c.b(SourceFile:5)
+	at d.a.k.a(SourceFile:77)
+	at j.a.a.a.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.x$b.run(SourceFile:1)
+	at d.a.q$a.run(SourceFile:2)
+	at d.a.e.g.k.run(SourceFile:2)
+	at d.a.e.g.k.call(SourceFile:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+	at java.lang.Thread.run(Thread.java:764)
+
+
+retval: undefined => undefined
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.$init
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 0 => 0
+int 	age => 0 => 0
+java.lang.String 	annualIncome => null => null
+int 	appointment => 0 => 0
+java.lang.String 	avatar => null => null
+int 	await => 0 => 0
+int 	birthday => 0 => 0
+java.lang.String 	bubbleText => null => null
+java.lang.String 	constellation => null => null
+int 	currentState => 0 => 0
+java.lang.String 	distance => null => null
+int 	disturb => 0 => 0
+int 	education => 0 => 0
+int 	figure => 0 => 0
+int 	getAlong => 0 => 0
+java.lang.String 	gpsCity => null => null
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => null => null
+java.lang.String 	inviteType => null => null
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => null => null
+java.lang.String 	nickname => null => null
+java.lang.String 	onlineTime => null => null
+boolean 	sendUnlock => false => false
+int 	sex => 0 => 0
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.$init
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.<init>(Native Method)
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:334)
+	at c.k.a.a.j.a(SourceFile:1)
+	at c.k.a.a.a.p$a.a(SourceFile:3)
+	at c.k.a.a.a.o.a(SourceFile:5)
+	at c.k.a.a.a.p$a.a(SourceFile:9)
+	at c.k.a.a.a.o.a(SourceFile:5)
+	at c.k.a.a.a.p$a.a(SourceFile:9)
+	at c.k.a.I.a(SourceFile:7)
+	at c.k.a.I.a(SourceFile:8)
+	at com.chanson.common.a.d.a(SourceFile:5)
+	at com.chanson.common.a.d.convert(SourceFile:1)
+	at j.w.a(SourceFile:25)
+	at j.w.execute(SourceFile:18)
+	at j.a.a.c.b(SourceFile:5)
+	at d.a.k.a(SourceFile:77)
+	at j.a.a.a.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.x$b.run(SourceFile:1)
+	at d.a.q$a.run(SourceFile:2)
+	at d.a.e.g.k.run(SourceFile:2)
+	at d.a.e.g.k.call(SourceFile:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+	at java.lang.Thread.run(Thread.java:764)
+
+
+retval: undefined => undefined
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.$init
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getNickname
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getNickname(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:2)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: anonymou => "anonymou"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getNickname
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getGpsCity
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getGpsCity(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:3)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 上海市 => "上海市"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getGpsCity
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getGpsCity
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getGpsCity(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:4)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 上海市 => "上海市"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getGpsCity
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getConstellation
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getConstellation(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:5)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 摩羯座 => "摩羯座"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getConstellation
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getConstellation
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getConstellation(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:6)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 摩羯座 => "摩羯座"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getConstellation
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getJob
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getJob(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:7)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 8 => "8"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getJob
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getJob
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getJob(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:8)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 8 => "8"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getJob
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getSex
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getSex(Native Method)
+	at com.chanson.business.g.m.a(SourceFile:30)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:8)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 2 => 2
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getSex
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getAvatar
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getAvatar(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:11)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getAvatar
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.isReal
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.isReal(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:12)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: false => false
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.isReal
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getSex
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getSex(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:26)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 2 => 2
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getSex
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getNickname
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getNickname(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:33)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: anonymou => "anonymou"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getNickname
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getCorrectVipLabel
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getCorrectVipLabel(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:34)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: -1 => -1
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getCorrectVipLabel
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.isVip
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.isVip(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:34)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: false => false
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.isVip
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.isVip
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.isVip(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:37)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: false => false
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.isVip
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.isVip
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.isVip(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:49)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: false => false
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.isVip
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getSex
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getSex(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:125)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 2 => 2
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getSex
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 最近电影不错，一起看？ => "最近电影不错，一起看？"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getSex
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getSex(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.ca(SourceFile:5)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:8)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 2 => 2
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getSex
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 0 => 0
+int 	age => 0 => 0
+java.lang.String 	annualIncome => null => null
+int 	appointment => 0 => 0
+java.lang.String 	avatar => null => null
+int 	await => 0 => 0
+int 	birthday => 0 => 0
+java.lang.String 	bubbleText => null => null
+java.lang.String 	constellation => null => null
+int 	currentState => 0 => 0
+java.lang.String 	distance => null => null
+int 	disturb => 0 => 0
+int 	education => 0 => 0
+int 	figure => 0 => 0
+int 	getAlong => 0 => 0
+java.lang.String 	gpsCity => null => null
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => null => null
+java.lang.String 	inviteType => null => null
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => null => null
+java.lang.String 	nickname => null => null
+java.lang.String 	onlineTime => null => null
+boolean 	sendUnlock => false => false
+int 	sex => 0 => 0
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.$init
+arg[0]: 0 => 0
+arg[1]: 0 => 0
+arg[2]:  => ""
+arg[3]:  => ""
+arg[4]:  => ""
+arg[5]:  => ""
+arg[6]:  => ""
+arg[7]: false => false
+arg[8]: false => false
+arg[9]: false => false
+arg[10]:  => ""
+arg[11]:  => ""
+arg[12]:  => ""
+arg[13]: false => false
+arg[14]: 0 => 0
+arg[15]:  => ""
+arg[16]:  => ""
+arg[17]: 0 => 0
+arg[18]: false => false
+arg[19]:  => ""
+arg[20]: 0 => 0
+arg[21]: 0 => 0
+arg[22]: 0 => 0
+arg[23]: 0 => 0
+arg[24]: 0 => 0
+arg[25]: 0 => 0
+arg[26]: 0 => 0
+arg[27]: 0 => 0
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.<init>(Native Method)
+	at com.chanson.business.model.BasicUserInfoBean.<init>(SourceFile:3)
+	at com.chanson.business.model.BasicUserInfoBean.<init>(Native Method)
+	at com.chanson.business.model.MyInfoBean.<init>(SourceFile:5)
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:334)
+	at c.k.a.a.j.a(SourceFile:1)
+	at c.k.a.a.a.p$a.a(SourceFile:3)
+	at c.k.a.a.a.o.a(SourceFile:5)
+	at c.k.a.a.a.p$a.a(SourceFile:9)
+	at c.k.a.I.a(SourceFile:7)
+	at c.k.a.I.a(SourceFile:8)
+	at com.chanson.common.a.d.a(SourceFile:5)
+	at com.chanson.common.a.d.convert(SourceFile:1)
+	at j.w.a(SourceFile:25)
+	at j.w.execute(SourceFile:18)
+	at j.a.a.c.b(SourceFile:5)
+	at d.a.k.a(SourceFile:77)
+	at j.a.a.a.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.x$b.run(SourceFile:1)
+	at d.a.q$a.run(SourceFile:2)
+	at d.a.e.g.k.run(SourceFile:2)
+	at d.a.e.g.k.call(SourceFile:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+	at java.lang.Thread.run(Thread.java:764)
+
+
+retval: undefined => undefined
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.$init
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 0 => 0
+int 	age => 0 => 0
+java.lang.String 	annualIncome => null => null
+int 	appointment => 0 => 0
+java.lang.String 	avatar => null => null
+int 	await => 0 => 0
+int 	birthday => 0 => 0
+java.lang.String 	bubbleText => null => null
+java.lang.String 	constellation => null => null
+int 	currentState => 0 => 0
+java.lang.String 	distance => null => null
+int 	disturb => 0 => 0
+int 	education => 0 => 0
+int 	figure => 0 => 0
+int 	getAlong => 0 => 0
+java.lang.String 	gpsCity => null => null
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => null => null
+java.lang.String 	inviteType => null => null
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => null => null
+java.lang.String 	nickname => null => null
+java.lang.String 	onlineTime => null => null
+boolean 	sendUnlock => false => false
+int 	sex => 0 => 0
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.$init
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.<init>(Native Method)
+	at com.chanson.business.model.MyInfoBean.<init>(SourceFile:5)
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:334)
+	at c.k.a.a.j.a(SourceFile:1)
+	at c.k.a.a.a.p$a.a(SourceFile:3)
+	at c.k.a.a.a.o.a(SourceFile:5)
+	at c.k.a.a.a.p$a.a(SourceFile:9)
+	at c.k.a.I.a(SourceFile:7)
+	at c.k.a.I.a(SourceFile:8)
+	at com.chanson.common.a.d.a(SourceFile:5)
+	at com.chanson.common.a.d.convert(SourceFile:1)
+	at j.w.a(SourceFile:25)
+	at j.w.execute(SourceFile:18)
+	at j.a.a.c.b(SourceFile:5)
+	at d.a.k.a(SourceFile:77)
+	at j.a.a.a.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.x$b.run(SourceFile:1)
+	at d.a.q$a.run(SourceFile:2)
+	at d.a.e.g.k.run(SourceFile:2)
+	at d.a.e.g.k.call(SourceFile:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+	at java.lang.Thread.run(Thread.java:764)
+
+
+retval: undefined => undefined
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.$init
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 0 => 0
+int 	age => 0 => 0
+java.lang.String 	annualIncome => null => null
+int 	appointment => 0 => 0
+java.lang.String 	avatar => null => null
+int 	await => 0 => 0
+int 	birthday => 0 => 0
+java.lang.String 	bubbleText => null => null
+java.lang.String 	constellation => null => null
+int 	currentState => 0 => 0
+java.lang.String 	distance => null => null
+int 	disturb => 0 => 0
+int 	education => 0 => 0
+int 	figure => 0 => 0
+int 	getAlong => 0 => 0
+java.lang.String 	gpsCity => null => null
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => null => null
+java.lang.String 	inviteType => null => null
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => null => null
+java.lang.String 	nickname => null => null
+java.lang.String 	onlineTime => null => null
+boolean 	sendUnlock => false => false
+int 	sex => 0 => 0
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.$init
+arg[0]: 0 => 0
+arg[1]: 0 => 0
+arg[2]:  => ""
+arg[3]:  => ""
+arg[4]:  => ""
+arg[5]:  => ""
+arg[6]:  => ""
+arg[7]: false => false
+arg[8]: false => false
+arg[9]: false => false
+arg[10]:  => ""
+arg[11]:  => ""
+arg[12]:  => ""
+arg[13]: false => false
+arg[14]: 0 => 0
+arg[15]:  => ""
+arg[16]:  => ""
+arg[17]: 0 => 0
+arg[18]: false => false
+arg[19]:  => ""
+arg[20]: 0 => 0
+arg[21]: 0 => 0
+arg[22]: 0 => 0
+arg[23]: 0 => 0
+arg[24]: 0 => 0
+arg[25]: 0 => 0
+arg[26]: 0 => 0
+arg[27]: 0 => 0
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.<init>(Native Method)
+	at com.chanson.business.model.BasicUserInfoBean.<init>(SourceFile:3)
+	at com.chanson.business.model.BasicUserInfoBean.<init>(Native Method)
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:334)
+	at c.k.a.a.j.a(SourceFile:1)
+	at c.k.a.a.a.p$a.a(SourceFile:3)
+	at c.k.a.a.a.o.a(SourceFile:5)
+	at c.k.a.a.a.p$a.a(SourceFile:9)
+	at c.k.a.a.a.o.a(SourceFile:5)
+	at c.k.a.a.a.p$a.a(SourceFile:9)
+	at c.k.a.I.a(SourceFile:7)
+	at c.k.a.I.a(SourceFile:8)
+	at com.chanson.common.a.d.a(SourceFile:5)
+	at com.chanson.common.a.d.convert(SourceFile:1)
+	at j.w.a(SourceFile:25)
+	at j.w.execute(SourceFile:18)
+	at j.a.a.c.b(SourceFile:5)
+	at d.a.k.a(SourceFile:77)
+	at j.a.a.a.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.x$b.run(SourceFile:1)
+	at d.a.q$a.run(SourceFile:2)
+	at d.a.e.g.k.run(SourceFile:2)
+	at d.a.e.g.k.call(SourceFile:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+	at java.lang.Thread.run(Thread.java:764)
+
+
+retval: undefined => undefined
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.$init
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 0 => 0
+int 	age => 0 => 0
+java.lang.String 	annualIncome => null => null
+int 	appointment => 0 => 0
+java.lang.String 	avatar => null => null
+int 	await => 0 => 0
+int 	birthday => 0 => 0
+java.lang.String 	bubbleText => null => null
+java.lang.String 	constellation => null => null
+int 	currentState => 0 => 0
+java.lang.String 	distance => null => null
+int 	disturb => 0 => 0
+int 	education => 0 => 0
+int 	figure => 0 => 0
+int 	getAlong => 0 => 0
+java.lang.String 	gpsCity => null => null
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => null => null
+java.lang.String 	inviteType => null => null
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => null => null
+java.lang.String 	nickname => null => null
+java.lang.String 	onlineTime => null => null
+boolean 	sendUnlock => false => false
+int 	sex => 0 => 0
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.$init
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.<init>(Native Method)
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:334)
+	at c.k.a.a.j.a(SourceFile:1)
+	at c.k.a.a.a.p$a.a(SourceFile:3)
+	at c.k.a.a.a.o.a(SourceFile:5)
+	at c.k.a.a.a.p$a.a(SourceFile:9)
+	at c.k.a.a.a.o.a(SourceFile:5)
+	at c.k.a.a.a.p$a.a(SourceFile:9)
+	at c.k.a.I.a(SourceFile:7)
+	at c.k.a.I.a(SourceFile:8)
+	at com.chanson.common.a.d.a(SourceFile:5)
+	at com.chanson.common.a.d.convert(SourceFile:1)
+	at j.w.a(SourceFile:25)
+	at j.w.execute(SourceFile:18)
+	at j.a.a.c.b(SourceFile:5)
+	at d.a.k.a(SourceFile:77)
+	at j.a.a.a.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.x$b.run(SourceFile:1)
+	at d.a.q$a.run(SourceFile:2)
+	at d.a.e.g.k.run(SourceFile:2)
+	at d.a.e.g.k.call(SourceFile:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+	at java.lang.Thread.run(Thread.java:764)
+
+
+retval: undefined => undefined
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.$init
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getNickname
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getNickname(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:2)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: anonymou => "anonymou"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getNickname
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getGpsCity
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getGpsCity(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:3)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 上海市 => "上海市"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getGpsCity
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getGpsCity
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getGpsCity(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:4)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 上海市 => "上海市"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getGpsCity
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getConstellation
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getConstellation(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:5)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 摩羯座 => "摩羯座"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getConstellation
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getConstellation
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getConstellation(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:6)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 摩羯座 => "摩羯座"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getConstellation
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getJob
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getJob(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:7)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 8 => "8"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getJob
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getJob
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getJob(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:8)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 8 => "8"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getJob
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getSex
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getSex(Native Method)
+	at com.chanson.business.g.m.a(SourceFile:30)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:8)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 2 => 2
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getSex
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getAvatar
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getAvatar(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:11)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getAvatar
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.isReal
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.isReal(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:12)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: false => false
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.isReal
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getSex
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getSex(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:26)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 2 => 2
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getSex
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getNickname
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getNickname(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:33)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: anonymou => "anonymou"
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getNickname
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getCorrectVipLabel
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getCorrectVipLabel(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:34)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: -1 => -1
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getCorrectVipLabel
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.isVip
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.isVip(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:34)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: false => false
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.isVip
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.isVip
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.isVip(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:37)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: false => false
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.isVip
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.isVip
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.isVip(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:49)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: false => false
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.isVip
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getSex
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getSex(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.X(SourceFile:125)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:7)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 2 => 2
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getSex
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.getSex
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.getSex(Native Method)
+	at com.chanson.business.mine.fragment.MineFragment.ca(SourceFile:5)
+	at com.chanson.business.mine.fragment.MineFragment.a(SourceFile:8)
+	at com.chanson.business.mine.presenter.g.a(SourceFile:3)
+	at com.chanson.business.mine.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 2 => 2
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.getSex
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.isVip
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.isVip(Native Method)
+	at com.chanson.business.message.activity.ChatActivity.W(SourceFile:8)
+	at com.chanson.business.message.activity.ChatActivity.a(SourceFile:2)
+	at com.chanson.business.message.activity.c.onIntercept(SourceFile:1)
+	at com.tencent.qcloud.tim.uikit.modules.chat.layout.input.InputLayout.onClick(SourceFile:53)
+	at android.view.View.performClick(View.java:6294)
+	at android.view.View$PerformClick.run(View.java:24770)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: false => false
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.isVip
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.chanson.business.model.BasicUserInfoBean
+int 	advantages => 1 => 1
+int 	age => 31 => 31
+java.lang.String 	annualIncome => 0 => "0"
+int 	appointment => 2 => 2
+java.lang.String 	avatar => https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original => "https://cdn.kela77.com/images/public/default.png?x-oss-process=style/original"
+int 	await => 0 => 0
+int 	birthday => 631196894 => 631196894
+java.lang.String 	bubbleText => 小姐姐好呀，无聊我们可以聊聊天 => "小姐姐好呀，无聊我们可以聊聊天"
+java.lang.String 	constellation => 摩羯座 => "摩羯座"
+int 	currentState => 1 => 1
+java.lang.String 	distance => 0.00km => "0.00km"
+int 	disturb => 0 => 0
+int 	education => 1 => 1
+int 	figure => 2 => 2
+int 	getAlong => 3 => 3
+java.lang.String 	gpsCity => 上海市 => "上海市"
+boolean 	hiddenSocial => false => false
+java.lang.String 	iconArea => 国权路 => "国权路"
+java.lang.String 	inviteType => 通过系统发放的邀请码加入克拉恋人 => "通过系统发放的邀请码加入克拉恋人"
+boolean 	isGoddess => undefined => undefined
+boolean 	isReal => undefined => undefined
+boolean 	isVip => undefined => undefined
+java.lang.String 	job => 8 => "8"
+java.lang.String 	nickname => anonymou => "anonymou"
+java.lang.String 	onlineTime => online => "online"
+boolean 	sendUnlock => true => true
+int 	sex => 2 => 2
+int 	vipLabel => 0 => 0
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.chanson.business.model.BasicUserInfoBean.isVip
+java.lang.Throwable
+	at com.chanson.business.model.BasicUserInfoBean.isVip(Native Method)
+	at com.chanson.business.message.activity.ChatActivity.ja(SourceFile:2)
+	at com.chanson.business.message.activity.ChatActivity.k(SourceFile:1)
+	at com.chanson.business.message.activity.a.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: false => false
+
+*** exiting com.chanson.business.model.BasicUserInfoBean.isVip
+
