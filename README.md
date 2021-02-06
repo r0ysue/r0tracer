@@ -54,7 +54,7 @@ $ frida -U com.r0ysue.example -l r0tracer.js  --runtime=v8 --no-pause -o saveLog
 注意点：
 
 - Frida的崩溃有时候真的是玄学，大项目一崩溃根本不知道是哪里出的问题，这也是小而专的项目也有一丝机会的原因
-- Frida自身即会经常崩溃，建议多更换Frida(客/服要配糖)版本/安卓版本，`ROOT`采用`Magisk Root`
+- Frida自身即会经常崩溃，建议多更换Frida(客/服要配套)版本/安卓版本，`ROOT`采用`Magisk Root`
 - 我自己常用的组合是两部手机，Frida12.8.0全家桶+[Google Factoty Image](https://developers.google.com/android/images) Android 8.1.0，和Frida14.2.2全家桶+[Google Factoty Image](https://developers.google.com/android/images) Android 10 
 
 # 致谢 Thanks to
