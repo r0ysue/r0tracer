@@ -1,3 +1,17 @@
+(function(){
+    let Color = {RESET: "\x1b[39;49;00m", Black: "0;01", Blue: "4;01", Cyan: "6;01", Gray: "7;11", "Green": "2;01", Purple: "5;01", Red: "1;01", Yellow: "3;01"};
+    let LightColor = {RESET: "\x1b[39;49;00m", Black: "0;11", Blue: "4;11", Cyan: "6;11", Gray: "7;01", "Green": "2;11", Purple: "5;11", Red: "1;11", Yellow: "3;11"};    
+    var colorPrefix = '\x1b[3', colorSuffix = 'm'
+    for (let c in Color){
+        if (c  == "RESET") continue;
+        console[c] = function(message){
+            console.log(colorPrefix + Color[c] + colorSuffix + message + Color.RESET);
+        }
+        console["Light" + c] = function(message){
+            console.log(colorPrefix + LightColor[c] + colorSuffix + message + Color.RESET);
+        }
+    }
+})();
 function uniqBy(array, key) {
     var seen = {};
     return array.filter(function (item) {
@@ -187,7 +201,7 @@ function hook(white, black, target = null) {
 }
 function main() {
     Java.perform(function () {
-        console.warn("r0tracer begin ... !")
+        console.Green("r0tracer begin ... !")
         /*
         //以下三种模式，取消注释某一行以开启
         */
