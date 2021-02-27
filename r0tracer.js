@@ -102,7 +102,6 @@ function traceMethod(targetClassMethod) {
             for (var p = 0; p < 100; p++) {
                 output = output.concat("==");
             }
-            output = output.concat("\r\n")
             console.Gray(output);
             var output = "";
             //域值
@@ -111,7 +110,6 @@ function traceMethod(targetClassMethod) {
             var output = "";
             //进入函数
             output = output.concat("\n*** entered " + targetClassMethod);
-            output = output.concat("\r\n")
             if (arguments.length) console.Black();
             //参数
             for (var j = 0; j < arguments.length; j++) {
@@ -120,17 +118,14 @@ function traceMethod(targetClassMethod) {
             }
             //调用栈
             output = output.concat(Java.use("android.util.Log").getStackTraceString(Java.use("java.lang.Throwable").$new()));
-            output = output.concat("\r\n")
             console.Green(output);
             var output = "";
             var retval = this[targetMethod].apply(this, arguments);
             //返回值
             output = output.concat("\nretval: " + retval + " => " + JSON.stringify(retval));
-            output = output.concat("\r\n")
             // inspectObject(this)
             //离开函数
             output = output.concat("\n*** exiting " + targetClassMethod);
-            output = output.concat("\r\n")
             //最终输出
             console.Black(output);
             return retval;
