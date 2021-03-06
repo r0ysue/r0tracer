@@ -110,6 +110,7 @@ function traceMethod(targetClassMethod) {
             var output = "";
             //进入函数
             output = output.concat("\n*** entered " + targetClassMethod);
+            output = output.concat("\r\n")
             if (arguments.length) console.Black();
             //参数
             for (var j = 0; j < arguments.length; j++) {
