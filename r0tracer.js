@@ -234,7 +234,7 @@ function main() {
 //setImmediate是立即执行函数，setTimeout是等待毫秒后延迟执行函数
 //二者在attach模式下没有区别
 //在spawn模式下，hook系统API时如javax.crypto.Cipher建议使用setImmediate立即执行，不需要延时
-//在spawn模式下，hook应用自己的函数或含壳时，建议使用setImmediate并给出适当的延时(500~5000)
+//在spawn模式下，hook应用自己的函数或含壳时，建议使用setTimeout并给出适当的延时(500~5000)
 */
 setImmediate(main)
 //
