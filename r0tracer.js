@@ -101,11 +101,9 @@ function traceMethod(targetClassMethod) {
             //画个横线
             for (var p = 0; p < 100; p++) {
                 output = output.concat("==");
-            }
-            console.Gray(output);       
+            }            
             //域值
-            output = inspectObject(this, output);
-            console.Blue(output);      
+            output = inspectObject(this, output);           
             //进入函数
             output = output.concat("\n*** entered " + targetClassMethod);
             output = output.concat("\r\n")
@@ -116,8 +114,7 @@ function traceMethod(targetClassMethod) {
                 output = output.concat("\r\n")
             }
             //调用栈
-            output = output.concat(Java.use("android.util.Log").getStackTraceString(Java.use("java.lang.Throwable").$new()));
-            console.Green(output);       
+            output = output.concat(Java.use("android.util.Log").getStackTraceString(Java.use("java.lang.Throwable").$new()));            
             var retval = this[targetMethod].apply(this, arguments);
             //返回值
             output = output.concat("\nretval: " + retval + " => " + JSON.stringify(retval));
@@ -125,7 +122,27 @@ function traceMethod(targetClassMethod) {
             //离开函数
             output = output.concat("\n*** exiting " + targetClassMethod);
             //最终输出
-            console.Black(output);
+            // console.Black(output);
+            var r = parseInt((Math.random() * (3 - 1 + 1) + 1).toFixed(0));
+            var i = r;
+            var printOutput = null;
+            switch(i) {
+                case 1:
+                    printOutput = console.Purple;
+                    break;        
+                case 2:
+                    printOutput = console.Blue;
+                    break;        
+                case 3:
+                    printOutput = console.Green;
+                    break;        
+                case 4:                    
+                    printOutput = console.Red;
+                    break;
+                default:
+                    printOutput = console.LightGreen;
+                }
+            printOutput(output);
             return retval;
         }
     }
