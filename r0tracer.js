@@ -1,3 +1,4 @@
+var isLite = false;
 var ByPassTracerPid = function () {
     var fgetsPtr = Module.findExportByName("libc.so", "fgets");
     var fgets = new NativeFunction(fgetsPtr, 'pointer', ['pointer', 'int', 'pointer']);
@@ -101,47 +102,55 @@ function traceMethod(targetClassMethod) {
             //画个横线
             for (var p = 0; p < 100; p++) {
                 output = output.concat("==");
-            }            
+            }
             //域值
-            output = inspectObject(this, output);           
+            if (!isLite) { output = inspectObject(this, output); }
             //进入函数
             output = output.concat("\n*** entered " + targetClassMethod);
             output = output.concat("\r\n")
-            if (arguments.length) console.Black();
+            // if (arguments.length) console.Black();
             //参数
-            for (var j = 0; j < arguments.length; j++) {
-                output = output.concat("arg[" + j + "]: " + arguments[j] + " => " + JSON.stringify(arguments[j]));
-                output = output.concat("\r\n")
-            }
-            //调用栈
-            output = output.concat(Java.use("android.util.Log").getStackTraceString(Java.use("java.lang.Throwable").$new()));            
             var retval = this[targetMethod].apply(this, arguments);
-            //返回值
-            output = output.concat("\nretval: " + retval + " => " + JSON.stringify(retval));
+            if (!isLite) {
+                for (var j = 0; j < arguments.length; j++) {
+                    output = output.concat("arg[" + j + "]: " + arguments[j] + " => " + JSON.stringify(arguments[j]));
+                    output = output.concat("\r\n")
+                }
+                //调用栈
+                output = output.concat(Java.use("android.util.Log").getStackTraceString(Java.use("java.lang.Throwable").$new()));
+                //返回值
+                output = output.concat("\nretval: " + retval + " => " + JSON.stringify(retval));
+            }
             // inspectObject(this)
             //离开函数
             output = output.concat("\n*** exiting " + targetClassMethod);
             //最终输出
             // console.Black(output);
-            var r = parseInt((Math.random() * (3 - 1 + 1) + 1).toFixed(0));
+            var r = parseInt((Math.random() * 7).toFixed(0));
             var i = r;
             var printOutput = null;
-            switch(i) {
+            switch (i) {
                 case 1:
-                    printOutput = console.Purple;
-                    break;        
-                case 2:
-                    printOutput = console.Blue;
-                    break;        
-                case 3:
-                    printOutput = console.Green;
-                    break;        
-                case 4:                    
                     printOutput = console.Red;
                     break;
+                case 2:
+                    printOutput = console.Yellow;
+                    break;
+                case 3:
+                    printOutput = console.Green;
+                    break;
+                case 4:
+                    printOutput = console.Cyan;
+                    break;
+                case 5:
+                    printOutput = console.Blue;
+                    break;
+                case 6:
+                    printOutput = console.Gray;
+                    break;
                 default:
-                    printOutput = console.LightGreen;
-                }
+                    printOutput = console.Purple;
+            }
             printOutput(output);
             return retval;
         }
@@ -242,6 +251,8 @@ function main() {
         // hook("javax.crypto.Cipher", "$");
         //C. 报某个类找不到时，将某个类名填写到第三个参数，比如找不到com.roysue.check类。（前两个参数依旧是黑白名单）
         // hook("com.roysue.check"," ","com.roysue.check");
+        //D. 增加精简模式，就是以彩虹色只显示进出函数。默认是关闭的，注释此行打开精简模式。
+        //isLite = true;
     })
 }
 /*
