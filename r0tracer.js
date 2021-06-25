@@ -242,6 +242,8 @@ function hook(white, black, target = null) {
 function main() {
     Java.perform(function () {
         console.Purple("r0tracer begin ... !")
+        //0. 增加精简模式，就是以彩虹色只显示进出函数。默认是关闭的，注释此行打开精简模式。
+        //isLite = true;
         /*
         //以下三种模式，取消注释某一行以开启
         */
@@ -250,9 +252,7 @@ function main() {
         //B. 黑白名单trace多个函数，第一个参数是白名单(包含关键字)，第二个参数是黑名单(不包含的关键字)
         // hook("javax.crypto.Cipher", "$");
         //C. 报某个类找不到时，将某个类名填写到第三个参数，比如找不到com.roysue.check类。（前两个参数依旧是黑白名单）
-        // hook("com.roysue.check"," ","com.roysue.check");
-        //D. 增加精简模式，就是以彩虹色只显示进出函数。默认是关闭的，注释此行打开精简模式。
-        //isLite = true;
+        // hook("com.roysue.check"," ","com.roysue.check");        
     })
 }
 /*
