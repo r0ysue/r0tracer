@@ -221,10 +221,9 @@ function hook(white, black, target = null) {
     var targetClasses = new Array();
     Java.enumerateLoadedClasses({
         onMatch: function (className) {
-            if (className.toString().toLowerCase().indexOf(white) >= 0 &&
-                className.toString().toLowerCase().indexOf(black) < 0
-            ) {
-                console.Black("Found Class => ", className)
+            if (className.toString().toLowerCase().indexOf(white.toLowerCase()) >= 0 &&
+               (black == null || black == '' || className.toString().toLowerCase().indexOf(black.toLowerCase()) < 0)) {
+                console.Black("Found Class => " + className)
                 targetClasses.push(className);
                 traceClass(className);
             }
