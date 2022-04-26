@@ -1,4 +1,4 @@
-r0tracer begin ... !
+r0tracer begin ... !123
 Tracing Method : com.chanson.business.model.BasicUserInfoBean.copy$default [1 overload(s)]
 Tracing Method : com.chanson.business.model.BasicUserInfoBean.component1 [1 overload(s)]
 Tracing Method : com.chanson.business.model.BasicUserInfoBean.component10 [1 overload(s)]
