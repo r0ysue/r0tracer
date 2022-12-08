@@ -93,6 +93,9 @@ function traceMethod(targetClassMethod) {
     var targetClass = targetClassMethod.slice(0, delim)
     var targetMethod = targetClassMethod.slice(delim + 1, targetClassMethod.length)
     var hook = Java.use(targetClass);
+    if(!hook[targetMethod]){
+        return;
+    }
     var overloadCount = hook[targetMethod].overloads.length;
     console.Red("Tracing Method : " + targetClassMethod + " [" + overloadCount + " overload(s)]");
     for (var i = 0; i < overloadCount; i++) {
