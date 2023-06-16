@@ -1,3 +1,9 @@
+# 更新：
+
+- 新增iOS平台支持且自动判断应用所属平台
+- 输出信息非常全面，iOS平台对property的访问也被hook并输出
+- 新增hookALL()模式，hook应用的所有类方法重载；（小应用可用，大应用扛不住）
+
 # r0tracer
 
 安卓Java层多功能追踪脚本
@@ -42,6 +48,7 @@ $ frida -U -f com.r0ysue.example -l r0tracer.js  --no-pause -o saveLog5.txt
 ```
 $ frida -U com.r0ysue.example -l r0tracer.js  --runtime=v8 --no-pause -o saveLog6.txt
 ```
+
 
 # 优势
 
