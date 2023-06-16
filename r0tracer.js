@@ -12,18 +12,18 @@ var ByPassTracerPid = function () {
         return retval;
     }, 'pointer', ['pointer', 'int', 'pointer']));
 };
-setImmediate(ByPassTracerPid);
+// setImmediate(ByPassTracerPid);
 
-(function(){
-    let Color = {RESET: "\x1b[39;49;00m", Black: "0;01", Blue: "4;01", Cyan: "6;01", Gray: "7;11", "Green": "2;01", Purple: "5;01", Red: "1;01", Yellow: "3;01"};
-    let LightColor = {RESET: "\x1b[39;49;00m", Black: "0;11", Blue: "4;11", Cyan: "6;11", Gray: "7;01", "Green": "2;11", Purple: "5;11", Red: "1;11", Yellow: "3;11"};    
+(function () {
+    let Color = { RESET: "\x1b[39;49;00m", Black: "0;01", Blue: "4;01", Cyan: "6;01", Gray: "7;11", "Green": "2;01", Purple: "5;01", Red: "1;01", Yellow: "3;01" };
+    let LightColor = { RESET: "\x1b[39;49;00m", Black: "0;11", Blue: "4;11", Cyan: "6;11", Gray: "7;01", "Green": "2;11", Purple: "5;11", Red: "1;11", Yellow: "3;11" };
     var colorPrefix = '\x1b[3', colorSuffix = 'm'
-    for (let c in Color){
-        if (c  == "RESET") continue;
-        console[c] = function(message){
+    for (let c in Color) {
+        if (c == "RESET") continue;
+        console[c] = function (message) {
             console.log(colorPrefix + Color[c] + colorSuffix + message + Color.RESET);
         }
-        console["Light" + c] = function(message){
+        console["Light" + c] = function (message) {
             console.log(colorPrefix + LightColor[c] + colorSuffix + message + Color.RESET);
         }
     }
@@ -93,7 +93,7 @@ function traceMethod(targetClassMethod) {
     var targetClass = targetClassMethod.slice(0, delim)
     var targetMethod = targetClassMethod.slice(delim + 1, targetClassMethod.length)
     var hook = Java.use(targetClass);
-    if(!hook[targetMethod]){
+    if (!hook[targetMethod]) {
         return;
     }
     var overloadCount = hook[targetMethod].overloads.length;
@@ -160,16 +160,29 @@ function traceMethod(targetClassMethod) {
     }
 }
 
+
 function traceClass(targetClass) {
+    if (Java.available) {
+        Java.perform(function () {
+            JavaTraceClass(targetClass)
+        })
+    } else if (ObjC.available) {
+        IosTraceClass(targetClass)
+    } else {
+        console.log("please connect to either iOS or Android device ...")
+    }
+}
+
+function JavaTraceClass(targetClass) {
     //Java.use是新建一个对象哈，大家还记得么？
     var hook = Java.use(targetClass);
     //利用反射的方式，拿到当前类的所有方法
-    var methods = hook.class.getDeclaredMethods();    
+    var methods = hook.class.getDeclaredMethods();
     //建完对象之后记得将对象释放掉哈
     hook.$dispose;
     //将方法名保存到数组中
     var parsedMethods = [];
-    var output = "";    
+    var output = "";
     output = output.concat("\tSpec: => \r\n")
     methods.forEach(function (method) {
         output = output.concat(method.toString())
@@ -197,7 +210,81 @@ function traceClass(targetClass) {
     }
     console.Green(output);
 }
+
+
+function print_arguments(args) {
+    /*
+    Frida's Interceptor has no information about the number of arguments, because there is no such 
+    information available at the ABI level (and we don't rely on debug symbols).
+    
+    I have implemented this function in order to try to determine how many arguments a method is using.
+    It stops when:
+        - The object is not nil
+        - The argument is not the same as the one before    
+     */
+    var n = 100;
+    var last_arg = '';
+    for (var i = 2; i < n; ++i) {
+        var arg = (new ObjC.Object(args[i])).toString();
+        if (arg == 'nil' || arg == last_arg) {
+            break;
+        }
+        last_arg = arg;
+        return ' args' + (i-2) + ': ' + (new ObjC.Object(args[i])).toString()
+    }
+}
+
+function IosTraceClass(targetClass) {
+    console.log("Entering ios hooking => " + targetClass)
+    if (ObjC.classes.hasOwnProperty(targetClass)) {
+        //console.log("[+] Class: " + className);
+        //var methods = ObjC.classes[className].$methods;
+        var methods = ObjC.classes[targetClass].$ownMethods;
+        methods.forEach(function (method) {
+            console.log("hooking " + method);
+            try {
+                Interceptor.attach(ObjC.classes[targetClass][method].implementation, {
+                    onEnter: function (args) {
+                        this.output = ""
+                        this.output = this.output.concat("[*] Detected call to: " + targetClass + " -> " + method)
+                        this.output = this.output.concat("\r\n")
+                        this.output = this.output.concat(print_arguments(args))
+                        this.output = this.output.concat("\r\n")
+                        this.output = this.output.concat(Thread.backtrace(this.context, Backtracer.ACCURATE).map(DebugSymbol.fromAddress).join("\n\t"))
+                        // this.output = this.output.concat("\r\n")
+                        // console.log(JSON.stringify(args))
+                        // console.log(JSON.stringify(this.context, null, 4))
+                        // console.log(ObjC.classes.NSThread.callStackSymbols().toString())
+                    }, onLeave: function (ret) {
+                        // console.log("ret value is => ",ret ,ObjC.object(ret).toString(), "=> ",JSON.stringify(ObjC.object(ret)))
+                        this.output = this.output.concat("\r\nios return value => ", ret, ObjC.Object(ret).toString(), "\r\n")
+                        this.output = this.output.concat("\r\n")
+                        console.log(this.output)
+                    }
+                })
+            } catch (error) {
+                console.log("ios hooking failed error is => ", error)
+
+            }
+        })
+    }
+
+}
+
 function hook(white, black, target = null) {
+    if (Java.available) {
+        Java.perform(function () {
+            javahook(white, black, target = null)
+        })
+    } else if (ObjC.available) {
+        ioshook(white, black)
+    } else {
+        console.log("please connect to either iOS or Android device ...")
+    }
+
+}
+
+function javahook(white, black, target = null) {
     console.Red("start")
     if (!(target === null)) {
         console.LightGreen("Begin enumerateClassLoaders ...")
@@ -225,7 +312,7 @@ function hook(white, black, target = null) {
     Java.enumerateLoadedClasses({
         onMatch: function (className) {
             if (className.toString().toLowerCase().indexOf(white.toLowerCase()) >= 0 &&
-               (black == null || black == '' || className.toString().toLowerCase().indexOf(black.toLowerCase()) < 0)) {
+                (black == null || black == '' || className.toString().toLowerCase().indexOf(black.toLowerCase()) < 0)) {
                 console.Black("Found Class => " + className)
                 targetClasses.push(className);
                 traceClass(className);
@@ -234,28 +321,171 @@ function hook(white, black, target = null) {
             console.Black("Search Class Completed!")
         }
     })
-    var output = "On Total Tracing :"+String(targetClasses.length)+" classes :\r\n";
-    targetClasses.forEach(function(target){
+    var output = "On Total Tracing :" + String(targetClasses.length) + " classes :\r\n";
+    targetClasses.forEach(function (target) {
         output = output.concat(target);
-        output = output.concat("\r\n")        
+        output = output.concat("\r\n")
     })
-    console.Green(output+"Start Tracing ...")
+    console.Green(output + "Start Tracing ...")
 }
-function main() {
-    Java.perform(function () {
-        console.Purple("r0tracer begin ... !")
-        //0. 增加精简模式，就是以彩虹色只显示进出函数。默认是关闭的，注释此行打开精简模式。
-        //isLite = true;
-        /*
-        //以下三种模式，取消注释某一行以开启
-        */
-        //A. 简易trace单个函数
-        traceClass("javax.crypto.Cipher")
-        //B. 黑白名单trace多个函数，第一个参数是白名单(包含关键字)，第二个参数是黑名单(不包含的关键字)
-        // hook("javax.crypto.Cipher", "$");
-        //C. 报某个类找不到时，将某个类名填写到第三个参数，比如找不到com.roysue.check类。（前两个参数依旧是黑白名单）
-        // hook("com.roysue.check"," ","com.roysue.check");        
+
+function ioshook(white, black) {
+    console.log("iOS begin search classed ...")
+    const resolver = new ApiResolver('objc');
+    var rule = '*[*' + white + '* *:*]'
+    // var rule = '*[*' + white + '* *:*]';
+    console.log("Search rule is => ", rule)
+    const matches = resolver.enumerateMatches(rule);
+    var targetClasses = new Set()
+    matches.forEach((match) => {
+        if (match.name.toString().toLowerCase().indexOf(String(black).toLowerCase()) < 0) {
+            console.log(JSON.stringify(match) + "=>" + match["name"].toString().split('[')[1].toString().split(' ')[0])
+            targetClasses.add(match["name"].toString().split('[')[1].toString().split(' ')[0])
+
+            //     Interceptor.attach(match.address,{
+            //         onEnter: function(args) {
+            //         this.output = ""
+            //         this.output = this.output.concat( "[*] Detected call to: " + match.name)
+            //         this.output = this.output.concat(print_arguments(args))
+            //         this.output = this.output.concat(Thread.backtrace(this.context, Backtracer.ACCURATE).map(DebugSymbol.fromAddress).join("\n\t"))
+            //         // console.log(JSON.stringify(args))
+            //         // console.log(JSON.stringify(this.context, null, 4))
+            //         // console.log(ObjC.classes.NSThread.callStackSymbols().toString())
+            //         } , onLeave:function(ret){
+            //         // console.log("ret value is => ",ret ,ObjC.object(ret).toString(), "=> ",JSON.stringify(ObjC.object(ret)))
+            //         this.output = this.output.concat("\r\nios return value => ",ret, ObjC.Object(ret).toString(),"\r\n")
+            //         console.log(this.output)
+            //     }
+            // })
+        }
     })
+    targetClasses.forEach((className) => {
+        console.log("ios final hooking => ", className)
+        traceClass(className)
+    })
+}
+
+
+
+function hookALL() {
+    if (Java.available) {
+        Java.perform(function () {
+            JavahookALL()
+        })
+    } else if (ObjC.available) {
+        ioshookALL()
+    } else {
+        console.log("please connect to either iOS or Android device ...")
+    }
+
+}
+
+
+function ioshookALL() {
+    console.log("[*] iOS Started: Hook all methods of all app only classes");
+    var free = new NativeFunction(Module.findExportByName(null, 'free'), 'void', ['pointer'])
+    var copyClassNamesForImage = new NativeFunction(Module.findExportByName(null, 'objc_copyClassNamesForImage'), 'pointer', ['pointer', 'pointer'])
+    var p = Memory.alloc(Process.pointerSize)
+    Memory.writeUInt(p, 0)
+    var path = ObjC.classes.NSBundle.mainBundle().executablePath().UTF8String()
+    var pPath = Memory.allocUtf8String(path)
+    var pClasses = copyClassNamesForImage(pPath, p)
+    var count = Memory.readUInt(p)
+    var classesArray = new Array(count)
+    for (var i = 0; i < count; i++) {
+        var pClassName = Memory.readPointer(pClasses.add(i * Process.pointerSize))
+        classesArray[i] = Memory.readUtf8String(pClassName)
+        var className = classesArray[i]
+        traceClass(className)
+    }
+    free(pClasses)
+    console.log("[*] iOS Completed: Hook all methods of all app only classes");
+}
+
+function hookALLappClasses(loader) {
+    if (loader.$className.toString().indexOf("java.lang.BootClassLoader") >= 0) {
+        return
+    }
+    var class_BaseDexClassLoader = Java.use("dalvik.system.BaseDexClassLoader");
+    var pathcl = Java.cast(loader, class_BaseDexClassLoader);
+    console.log("classloader pathList", pathcl.pathList.value);
+    var class_DexPathList = Java.use("dalvik.system.DexPathList");
+    var dexPathList = Java.cast(pathcl.pathList.value, class_DexPathList);
+    console.log("classloader dexElements:", dexPathList.dexElements.value.length);
+    var class_DexFile = Java.use("dalvik.system.DexFile");
+    var class_DexPathList_Element = Java.use("dalvik.system.DexPathList$Element");
+    for (var i = 0; i < dexPathList.dexElements.value.length; i++) {
+        var dexPathList_Element = Java.cast(dexPathList.dexElements.value[i], class_DexPathList_Element);
+        // console.log("classloader .dexFile:",dexPathList_Element.dexFile.value);
+        //可能为空 为空跳过
+        if (dexPathList_Element.dexFile.value) {            
+            var dexFile = Java.cast(dexPathList_Element.dexFile.value, class_DexFile);
+            var mcookie = dexFile.mCookie.value;
+            // console.log(".mCookie",dexFile.mCookie.value);
+            if (dexFile.mInternalCookie.value) {
+                mcookie = dexFile.mInternalCookie.value;
+            }
+            var classNameArr =
+                dexPathList_Element.dexFile.value.getClassNameList(mcookie);
+            console.log("dexFile.getClassNameList.length:", classNameArr.length);
+            console.log("r0ysue-Enumerate ClassName Start");
+            for (var i = 0; i < classNameArr.length; i++) {
+                if (classNameArr[i].indexOf("android.") < 0 &&
+                    classNameArr[i].indexOf("androidx.") < 0 &&
+                    classNameArr[i].indexOf("java.") < 0 &&
+                    classNameArr[i].indexOf("javax.") < 0
+                ) {
+                    console.log("r0ysue  ", classNameArr[i]);
+                    traceClass(classNameArr[i])
+                }
+            }
+            console.log("r0ysue-Enumerate ClassName End");
+        }
+    }
+}
+
+function JavahookALL() {
+    console.log("Entering Android hookALL procedure ...")
+    Java.enumerateClassLoaders({
+        onMatch: function (loader) {
+            try {
+                if (loader.toString().indexOf("base.apk") >= 0 &&
+                    loader.toString().indexOf(".jar") < 0) {
+                    console.Red("Successfully found app specifec classloader")
+                    console.Blue(loader);
+                    Java.classFactory.loader = loader;
+                    console.Red("Switch Classloader Successfully ! ")
+                    hookALLappClasses(loader)
+                }
+            }
+            catch (error) {
+                console.Red(" continuing :" + error)
+            }
+        },
+        onComplete: function () {
+            console.Red("EnumerateClassloader END")
+        }
+    })
+
+}
+
+
+function main() {
+    console.Purple("r0tracer begin ... !")
+    //0. 增加精简模式，就是以彩虹色只显示进出函数。默认是关闭的，注释此行打开精简模式。
+    //isLite = true;
+    /*
+    //以下三种模式，取消注释某一行以开启
+    */
+    //A. 简易trace单个lei
+    // traceClass("ViewController")
+    //B. 黑白名单trace多个函数，第一个参数是白名单(包含关键字)，第二个参数是黑名单(不包含的关键字)
+    // hook("com.uzmap.pkg.EntranceActivity", "$");
+    hook("ViewController","UI")
+    //C. 报某个类找不到时，将某个类名填写到第三个参数，比如找不到com.roysue.check类。（前两个参数依旧是黑白名单）
+    // hook("com.roysue.check"," ","com.roysue.check");    
+    //D. 新增hookALL() 打开这个模式的情况下，会hook属于app自己的所有业务类，小型app可用 ，中大型app几乎会崩溃，经不起
+    // hookALL()
 }
 /*
 //setImmediate是立即执行函数，setTimeout是等待毫秒后延迟执行函数
