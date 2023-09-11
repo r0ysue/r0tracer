@@ -274,7 +274,7 @@ function IosTraceClass(targetClass) {
 function hook(white, black, target = null) {
     if (Java.available) {
         Java.perform(function () {
-            javahook(white, black, target = null)
+            javahook(white, black, target)
         })
     } else if (ObjC.available) {
         ioshook(white, black)
