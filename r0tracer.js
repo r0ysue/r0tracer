@@ -187,7 +187,11 @@ function JavaTraceClass(targetClass) {
     methods.forEach(function (method) {
         output = output.concat(method.toString())
         output = output.concat("\r\n")
-        parsedMethods.push(method.toString().replace(targetClass + ".", "TOKEN").match(/\sTOKEN(.*)\(/)[1]);
+        let delim = method.toString().lastIndexOf("(");
+        let cut = method.toString().slice(0, delim)
+        delim = cut.lastIndexOf(".");
+        method = cut.slice(delim + 1, cut.length)
+        parsedMethods.push(method);
     });
     //去掉一些重复的值
     var Targets = uniqBy(parsedMethods, JSON.stringify);
